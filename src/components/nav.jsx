@@ -4,7 +4,7 @@ import Navbar from './UI/navBar';
 
 export default function Navigation() {
     const [clickedLink, setClickedLink] = useState('AboutMe');
-    const [aboutMeBtn, setAboutMeBtn] = useState('navLink');
+    const [aboutMeBtn, setAboutMeBtn] = useState('navLinkClicked');
     const [portfolioBtn, setPortfolioBtn] = useState('navLink');
     const [contactMeBtn, setContactMeBtn] = useState('navLink');
     const [resumeBtn, setResumeBtn] = useState('navLink');
