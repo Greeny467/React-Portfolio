@@ -1,1 +1,1 @@
-/src/assets/images/* /src/assets/images/:splat 200
+/src/assets/images/* /dist/images/:splat 200
