@@ -112,15 +112,17 @@ footer{
 }
 .navLink:hover{
     transform: scale(1.2);
+    color: var(--secondary-color);
 }
 .navLinkClicked{
-    height:100%;
-    margin:2%;
-    padding:3%;
-    color:var(--background-color);
-    scale: .8;
+    font-size: 3vw;
+    text-align: center;
+    max-height: 50px;
+    color: var(--secondary-color);
 }
-
+.navLinkClicked:hover{
+    color:var(--secondary-color);
+}
 
 
 .mainTitle{
