@@ -1,4 +1,4 @@
 [build]
-  base = "public"  # Set the base directory for your build
+  base = "/"  # Set the base directory for your build
   command = "npm run build"  # Your build command
   publish = "dist"  # The directory to publish
