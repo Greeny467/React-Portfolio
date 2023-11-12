@@ -1,0 +1,178 @@
+[
+    {
+        "title": "Bootcamp prework challenge",
+        "id": 1,
+        "dateFinished": "06/04/2023",
+        "shortDesc": "A simple html, css and js project",
+        "desc": "As preparation for University of Utah's coding course, I completed this prework assignment. It contains extremely basic html, css and javascript, and acted as my introduction to web design.",
+        "image": "/src/assets/images/preworkScreenshot.png",
+        "repository": "https://github.com/Greeny467/prework",
+        "website": "https://greeny467.github.io/prework/",
+        "drawer": 1
+    },
+    {
+        "title": "Search Engine Optimization Challenge",
+        "id": 2,
+        "dateFinished": "06/10/2023",
+        "shortDesc": "A simple website, which I changed the html tags of",
+        "desc": "For my first assignment of my college course, I was given code and tasked with replacing HTML element names with search engine optimized elements.",
+        "image": "/src/assets/images/challenge01Screenshot.png",
+        "repository": "https://github.com/Greeny467/Search-engine-optimization-challenge",
+        "website": "https://greeny467.github.io/Search-engine-optimization-challenge/", 
+        "drawer": 1
+    },
+    {
+        "title": "Advanced Css Challenge",
+        "id": 3,
+        "dateFinished": "07/01/2023",
+        "shortDesc": "A simple portfolio devised of only HTML and CSS",
+        "desc": "For the second assignment of my college course, I was tasked with making a simple portfolio with HTML and CSS. This webpage has links to my course projects, as well as simple webpage features.",
+        "image": "/src/assets/images/challenge02.png",
+        "repository": "https://github.com/Greeny467/02-challenge",
+        "website": "https://greeny467.github.io/02-challenge/",
+        "drawer": 2
+    },
+    {
+        "title": "Password Generator Challenge",
+        "id": 4,
+        "dateFinished": "07/02/2023",
+        "shortDesc": "A simple password generator website",
+        "desc": "For the third assignment of my coding course, I was given a simple website and tasked with adding input forms and a password generation function.",
+        "image": "/src/assets/images/challenge03Screenshot.png",
+        "repository": "https://github.com/Greeny467/03-Challenge",
+        "website": "https://greeny467.github.io/03-Challenge/",
+        "drawer": 2
+    },
+    {
+        "title": "JavaScript quiz Challenge",
+        "id": 5,
+        "dateFinished": "07/16/2023",
+        "shortDesc": "A small quiz website about JS",
+        "desc": "For the forth challenge of my coding course, I built a simple JavaScript quiz game website from scratch. In this project I started to become more adept in Javascript. The quiz features a highscore tracked in localStorage, a simple multiquestion quiz, and a timer, as well as an arcade esque highscore title owner function.",
+        "image": "/src/assets/images/challenge04Screenshot.png",
+        "repository": "https://github.com/Greeny467/04-Challenge-JavaScript-quiz-Game",
+        "website": "https://greeny467.github.io/04-Challenge-JavaScript-quiz-Game/",
+        "drawer": 2
+    },
+    {
+        "title": "Workday Scheduler challenge",
+        "id": 6,
+        "dateFinished": "07/19/2023",
+        "shortDesc": "A web app designed to schedule your workday",
+        "desc": "For the fifth challenge of my coding course, I was given some starter code and tasked with finishing it in order to create a workday scheduling app. It features the ability to add notes, the date, time tracking features, and localstorage use.",
+        "image": "/src/assets/images/challenge05Screenshot.png",
+        "repository": "https://github.com/Greeny467/05-challenge-workday-scheduler",
+        "website": "https://greeny467.github.io/05-challenge-workday-scheduler/",
+        "drawer": 2
+    },
+    {
+        "title": "Weather forecast challenge",
+        "id": 7,
+        "dateFinished": "07/31/2023",
+        "shortDesc": "A forecast app featuring cities in America",
+        "desc": "For the sixth challenge of my coding course, I built this website from scratch. It uses Javascript code to allow the user to search for different cities in the US and get forecast results. To achieve this, I used the openweathermap api, geocoding api, a search function of my own, and localstorage.",
+        "image": "/src/assets/images/challenge06Screenshot.png",
+        "repository": "https://github.com/Greeny467/06-Challenge-weather-forecast",
+        "website": "https://greeny467.github.io/06-Challenge-weather-forecast/",
+        "drawer": 2
+    },
+    {
+        "title": "Date planner website",
+        "id": 8,
+        "dateFinished": "08/06/2023",
+        "shortDesc": "An app designed to help plan dates",
+        "desc": "For the first project in my coding course, I and several other developers used multiple API' to create this app. The website takes in different input such as your address, range, activity type and budget, and returns date ideas with locations and data included.",
+        "image": "/src/assets/images/date-plannerScreenshot.png",
+        "repository": "https://github.com/Greeny467/date-planning-project-website",
+        "website": "https://greeny467.github.io/date-planning-project-website/",
+        "drawer": 3
+    },
+    {
+        "title": "README generator challenge",
+        "id": 9,
+        "dateFinished": "08/17/2023",
+        "shortDesc": "A node app to generate README files",
+        "desc": "For the seventh challenge of my coding course, I was given some starter code and tasked with building a README generator node application. This app uses node and the inquirer npm package most noteably.",
+        "image": "/src/assets/images/challenge09Screenshot.png",
+        "repository": "https://github.com/Greeny467/README-generator",
+        "website": "NONE",
+        "drawer": 3
+    },
+    {
+        "title": "Logo generator challenge",
+        "id": 10,
+        "dateFinished": "08/23/2023",
+        "shortDesc": "A node app to generate svg logos",
+        "desc": "For the eighth challenge of my coding course, I built a node application from scratch, which used the inquirer npm package and the jest npm package. This app takes in input and generates an svg logo.",
+        "image": "/src/assets/images/challenge10Screenshot.png",
+        "repository": "https://github.com/Greeny467/Logo-Generator",
+        "website": "NONE",
+        "drawer": 3
+    },
+    {
+        "title": "Note taking app challenge",
+        "id": 11,
+        "dateFinished": "08/30/2023",
+        "shortDesc": "A website to take notes with",
+        "desc": "For the ninth challenge of my coding course, I was given a front end and tasked with creating a backend for it. Using node and the express npm package among others, I created a simple backend which included REST routes.",
+        "image": "/src/assets/images/challenge11Screenshot.png",
+        "repository": "https://github.com/Greeny467/Note-Taking-App",
+        "website": "NONE",
+        "drawer": 3
+    },
+    {
+        "title": "Employee Database CLI challenge",
+        "id": 12,
+        "dateFinished": "09/08/2023",
+        "shortDesc": "A CLI to keep track of employees",
+        "desc": "For the tenth challenge of my coding course, I built a node CLI application from scratch, using MYSQL and the inquirer npm package among other things. The CLI includes REST routes and easy manipulation of employee data across the database.",
+        "image": "/src/assets/images/challenge12Screenshot.png",
+        "repository": "https://github.com/Greeny467/employee-database-cli",
+        "website": "NONE",
+        "drawer": 4
+    },
+    {
+        "title": "E-commerse API challenge",
+        "id": 13,
+        "dateFinished": "09/15/2023",
+        "shortDesc": "A simple API for e-commerse",
+        "desc": "For the eleventh challenge of my coding course, I was given some code to start with and tasked with finishing the models, their relations, the routing, and other small things for this server API. Using express and MYSQL I finished this node applicaton.",
+        "image": "/src/assets/images/challenge13Screenshot.png",
+        "repository": "https://github.com/Greeny467/e-commerce-api",
+        "website": "NONE",
+        "drawer": 4
+    },
+    {
+        "title": "Programmer blogging site challenge",
+        "id": 14,
+        "dateFinished": "09/24/2023",
+        "shortDesc": "A social media website for programmers",
+        "desc": "For the twelfth challenge of my coding course, I created a simple social media website from scratch. Using express, MYSQL, handlebars, as well as other technologies, this website has many features. Users can create accounts, make their own posts, comment on different posts, and much more. I designed both the front and back end of this application.",
+        "image": "/src/assets/images/challenge14Screenshot.png",
+        "repository": "https://github.com/Greeny467/programmer-blogging-site",
+        "website": "NONE",
+        "drawer": 4
+    },
+    {
+        "title": "Terse social media project",
+        "id": 15,
+        "dateFinished": "10/03/2023",
+        "shortDesc": "A single word messaging app",
+        "desc": "For the second project of my coding course, I worked with three other developers to create this website. It uses MYSQL, express, handlebars, a dictionary API, and several other technologies. I worked extensively on both the front and back end of this website, creating a lot of its major functionality. The website uses REST style routing and an MVC model. In this app users can create their own accounts, send friend and chat requests, accept requests in their inbox, create new chats, and message others, while only being able to write single words to communicate. Instead of using a websocket for chatting, the website uses a unique workaround, repeatedly fetching from the database to add any new data to the clientside.",
+        "image": "/src/assets/images/terseProjectScreenshot.png",
+        "repository": "https://github.com/Greeny467/terse_social_media",
+        "website": "NONE",
+        "drawer": 5
+    },
+    {
+        "title": "Thought social media API challenge",
+        "id": 16,
+        "dateFinished": "10/22/2023",
+        "shortDesc": "An api for a thought social media app",
+        "desc": "For the thirteenth challenge of my coding course, I built an API for a thought based social media app from scratch. Using mongo, mongoose, and express, as well as other technologies, I put together this backend database.",
+        "image": "/src/assets/images/challenge15Screenshot.png",
+        "repository": "https://github.com/Greeny467/Thought-SocialMedia-API",
+        "website": "NONE",
+        "drawer": 5
+    }
+]

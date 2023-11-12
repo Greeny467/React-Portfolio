@@ -1,0 +1,438 @@
+:root{
+    --primary-color: #CBE896; 
+    --secondary-color: #32908F;
+    --tertiary-color: #003554;
+    --quatrinary-color: #051923;
+    --background-color: #FFF8F0;
+}
+
+a{
+    margin: 0;
+}
+
+#root{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    margin:0%;
+    padding:0%;
+    height:100%;
+    width:100%;
+    background-color: var(--background-color);
+    line-height: normal;
+    white-space: nowrap;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+html, body, #root{
+    min-height:100vh;
+}
+
+header{
+    font-size:3vw;
+    width: 100vw;
+    display:block;
+    background: var(--secondary-color);
+}
+
+main{
+    width:100vw;
+    flex: 1;
+    background: var(--background-color);
+}
+
+footer{
+    font-size: 1vw;
+    margin-top: 5vw;
+    padding-top:2vw;
+    padding-bottom: 2vw;
+    position:relative;
+    bottom: 0;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 1vw;
+    text-align: center;
+
+    background-color: var(--quatrinary-color);
+    color:var(--secondary-color);
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin:5px;
+}
+.rowContainer{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    margin: 5px;
+    flex-direction: column;
+}
+.section{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+.fullPage{
+    height:100%;
+    background:var(--background-color);
+}
+
+.spaceTopBottom{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+.spaceSides{
+    margin-left:1vw;
+    margin-right: 1vw;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    margin: 1vw;
+    padding: 1vw 5vw;
+    width:90vw;
+    background: var(--primary-color);
+}
+.navLink{
+    font-size: 3vw;
+    text-align: center;
+    max-height: 50px;
+    color: var(--quatrinary-color);
+    transition: transform 0.2s ease-in;
+}
+.navLink:hover{
+    transform: scale(1.2);
+}
+.navLinkClicked{
+    height:100%;
+    margin:2%;
+    padding:3%;
+    color:var(--background-color);
+    scale: .8;
+}
+
+
+
+.mainTitle{
+    display: block;
+    text-align: center;
+    font-size: 7vw;
+    white-space: wrap;
+}
+.secondaryTitle{
+    display: block;
+    text-align: start;
+    font-size:5vw;
+    margin:3vw;
+}
+
+.textSection{
+    font-size: 2.5vw;
+    margin:0.5vw;
+    white-space: wrap;
+}
+
+.button{
+    padding: 0.5em;
+    border: none;
+    border-radius: 1.25em;
+    width: 10vw;
+    margin: 15px 5px;
+    background: var(--secondary-color);
+    color:var(--background-color);
+    cursor: pointer;
+    transition: background 0.3 ease-in-out;
+    &:hover{
+        background: var(--primary-color);
+        color:var(--quatrinary-color);
+    };
+    &:active{
+        background:var(--background-color);
+        color:var(--tertiary-color);
+    };
+}
+
+#backButtonHolder{
+    display:flex;
+    justify-content: start;
+}
+
+
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+
+    border-radius: 2em;
+    margin: 3%;
+
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid var(--quatrinary-color);
+    background: var(--tertiary-color);
+
+    font-size: 1.7vw;
+    white-space: wrap;
+    color: var(--background-color);
+
+    transition: scale 0.3s ease-in-out;
+    width: 27%;
+    height: 32vw;
+    max-height: 320px;
+    min-height: 80px;
+    padding:7px;
+    &:hover {
+        scale:1.2;
+    };
+}
+.card h3{
+    margin:5px;
+}
+.card img{
+    height: 40%;
+    width: 90%;
+    border-radius: 1vw;
+}
+
+
+.drawerCard{
+    display: flex;
+    flex-wrap: wrap;
+
+    border-radius: 2em;
+    margin: 3%;
+
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid var(--quatrinary-color);
+    background: var(--tertiary-color);
+
+    font-size: 1vw;
+    white-space: wrap;
+    color: var(--background-color);
+
+    transition: scale 0.3s ease-in-out;
+    width: 27%;
+    height:22vw;
+    min-height: 80px;
+    padding:7px;
+    &:hover {
+        scale:1.2;
+    };
+}
+.drawerCard h3{
+    font-size: 1.5vw;
+    margin:2px;
+}
+.drawerCard img{
+    height:40%;
+    width: 70%;
+    border-radius:1vw;
+}
+
+.drawerContainer{
+    transition: scale 0.3s ease-in-out;
+    &:hover{
+        scale:1.1;
+    };
+}
+
+.drawerBtn{
+    width: 80vw;
+    text-align: center;
+    font-size: 2.3vw;
+    border-radius: 1em;
+    background: var(--tertiary-color);
+    color: var(--background-color);
+}
+.openDrawerBtn{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.openedDrawer{
+    width: 78vw;
+    display: flex;
+    flex-wrap: wrap;
+    background: var(--primary-color);
+    align-items: center;
+    justify-content: start;
+    border-bottom-left-radius: 3vw;
+    border-bottom-right-radius: 3vw;
+    padding:5%; 
+    margin-bottom: 3vw;
+}
+.closedDrawer{
+    display: none;
+}
+
+
+.cardHolder-3or2{
+    display: flex;
+    padding:2vw 2vh;
+    width:95vw;
+    max-width: 1000px;
+    max-height:800px;
+    background: var(--primary-color);
+    border-radius:2vw;
+    align-self: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.cardHolder{
+    display: flex;
+}
+
+.colorBarPrimary{
+    background:var(--primary-color);
+}
+.colorBarQuatrinary{
+    background:var(--quatrinary-color);
+    padding:2vw;
+}
+
+.projectPageImage{
+    margin-top:1vw;
+    margin-bottom:2vw;
+    border: 2px solid var(--quatrinary-color);
+    border-radius: 10px;
+}
+
+.inputHolder{
+    display:block;
+    margin-bottom:2vw;
+}
+.redText{
+    color:red;
+}
+
+.aboutMeP{
+    text-indent: 5vw;
+    text-align: start;
+    font-size: 1.6vw;
+    width: 40vw;
+    padding:1vw;
+}
+
+@media screen and (min-width: 1050px){
+    body{
+        justify-content: center;
+        background: var(--tertiary-color);
+    }
+    #root{
+        width: 70vw;
+    }
+    header{
+        width:70vw;
+        font-size: 1vw;
+    }
+    footer{
+        width:70vw;
+    }
+    .navbar{
+        width:50vw;
+    }
+    .navLink{
+        font-size: 2vw;
+    }
+    .navLinkClicked{
+        font-size: 2vw;
+    }
+    main{
+        width:70vw;
+    }
+    .mainTitle{
+        font-size: 5vw;
+    }
+    .secondaryTitle{
+        font-size: 3vw;
+        margin:1vw;
+    }
+    .card{
+        font-size: 15px;
+    }
+    .card h3{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .card{
+        font-size: 1.5vw;
+    }
+    .aboutMeP{
+        width:60vw;
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (max-width: 655px){
+    .card{
+        width: 40%;
+        font-size: 1.3vw;
+    }
+    .drawerCard{
+        width: 40%;
+    }
+    .cardHolder-3or2{
+        max-height: 2500px;
+    }
+    footer{
+        font-size: 2vw;
+    }
+}
+
+
+@media screen and (max-width: 350px){
+    .card{
+        width: 60%;
+        height:80vw;
+        font-size: 3vw;
+    }
+    .drawerCard{
+        width: 60%;
+        height:80vw;
+        font-size: 3vw;
+    }
+    .cardHolder-3or2{
+        justify-content: center;
+    }
+    .button{
+        width: 20vw;
+    }
+    .aboutMeP{
+        width:80vw;
+        font-size: 4vw;
+    }
+    footer{
+        font-size: 3vw;
+        align-items: start;
+    }
+}
+
+@media screen and (max-width: 200px){
+    .card{
+        width: 80%;
+        height: 140vw;
+        font-size: 5vw;
+    }
+    .drawerCard{
+        width: 80%;
+        height:140vw;
+        font-size: 5vw;
+    }
+    .aboutMeP{
+        font-size: 6vw;
+    }
+}
