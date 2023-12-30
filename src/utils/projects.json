@@ -174,5 +174,16 @@
         "repository": "https://github.com/Greeny467/Thought-SocialMedia-API",
         "website": "NONE",
         "drawer": 5
+    },
+    {
+        "title": "Caption-This Project",
+        "id": 17,
+        "dateFinished": "12/20/2023",
+        "shortDesc": "A social media app where people vote on captions to posts do decide the best one",
+        "desc": "For the third project of my course, my team and I built caption-this. A website in which users post images, and then other users post caption for the image. Then, users vote on which caption is the best. This project used several technologies such as: apollo, react, imgur api, mongoose, and others.",
+        "image": "/src/assets/images/caption-this-project.png",
+        "repository": "https://github.com/Greeny467/caption-this",
+        "website": "https://caption-this-production.up.railway.app/",
+        "drawer": 6
     }
 ]

@@ -31,12 +31,12 @@ function generateDrawer (drawerData){
 
 
 const featuredCards = [];
-featuredCards.push(findCardById(projectData, 1));
-featuredCards.push(findCardById(projectData, 2));
-featuredCards.push(findCardById(projectData, 3));
-featuredCards.push(findCardById(projectData, 4));
-featuredCards.push(findCardById(projectData, 5));
-featuredCards.push(findCardById(projectData, 6));
+featuredCards.push(findCardById(projectData, 17));
+featuredCards.push(findCardById(projectData, 15));
+featuredCards.push(findCardById(projectData, 8));
+featuredCards.push(findCardById(projectData, 10));
+featuredCards.push(findCardById(projectData, 12));
+featuredCards.push(findCardById(projectData, 14));
 
 
 export default function portfolio () {
@@ -51,7 +51,8 @@ export default function portfolio () {
             </section>
             <section>
                 <h2 className='secondaryTitle'>All Projects</h2>
-                {drawerData.map((drawerData) => generateDrawer(drawerData))}
+                {drawerData.slice().reverse().map((drawerData) => generateDrawer(drawerData))}
+
             </section>
         </>
     )
