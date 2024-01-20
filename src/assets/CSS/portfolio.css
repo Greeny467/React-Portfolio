@@ -98,11 +98,11 @@ footer{
 }
 .link{
     color:black;
-    font-size: 5vw;
+    font-size: 3vw;
     transition: transform 0.2s ease-in-out;
 }
 .link:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     color: var(--secondary-color);
 }
 
