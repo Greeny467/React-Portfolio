@@ -59,7 +59,7 @@ export default function contactForm () {
         <form className='inputHolder'>
             <div>
                 <input 
-                    className='spaceSides' 
+                    className='basicInput' 
                     type='text' name='nameInput' 
                     id='nameInput' 
                     placeholder='First and Last name' 
@@ -71,7 +71,7 @@ export default function contactForm () {
             
             <div>
                 <input 
-                    className='spaceSides' 
+                    className='basicInput' 
                     type='email' 
                     name='emailInput' 
                     id='emailInput' 
@@ -85,7 +85,7 @@ export default function contactForm () {
 
             <div>
                 <input 
-                    className='spaceSides' 
+                    className='basicInput' 
                     type='text' 
                     name='messageInput' 
                     id='messageInput' 

@@ -89,9 +89,21 @@ footer{
     margin-top: 1vw;
     margin-bottom: 1vw;
 }
-.spaceSides{
-    margin-left:1vw;
-    margin-right: 1vw;
+
+.basicInput{
+    width:35vw;
+    max-width: 300px;
+    font-size:3vw;
+    margin:1vw;
+}
+.link{
+    color:black;
+    font-size: 5vw;
+    transition: transform 0.2s ease-in-out;
+}
+.link:hover{
+    transform: scale(1.2);
+    color: var(--secondary-color);
 }
 
 
@@ -145,11 +157,13 @@ footer{
 }
 
 .button{
-    padding: 0.5em;
+    padding: 1em;
     border: none;
     border-radius: 1.25em;
-    width: 10vw;
+    width: 40%;
+    height: 20%;
     margin: 15px 5px;
+    font-size:90%;
     background: var(--secondary-color);
     color:var(--background-color);
     cursor: pointer;
@@ -195,7 +209,7 @@ footer{
     min-height: 80px;
     padding:7px;
     &:hover {
-        scale:1.2;
+        scale:1.1;
     };
 }
 .card h3{
@@ -231,7 +245,7 @@ footer{
     min-height: 80px;
     padding:7px;
     &:hover {
-        scale:1.2;
+        scale:1.1;
     };
 }
 .drawerCard h3{
@@ -247,7 +261,7 @@ footer{
 .drawerContainer{
     transition: scale 0.3s ease-in-out;
     &:hover{
-        scale:1.1;
+        scale:1.05;
     };
 }
 
@@ -367,6 +381,9 @@ footer{
     .card h3{
         font-size: 20px;
     }
+    .basicInput{
+        font-size: 2vw;
+    }
 }
 
 @media screen and (max-width: 750px){
@@ -396,7 +413,7 @@ footer{
 }
 
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 515px){
     .card{
         width: 60%;
         height:80vw;
@@ -411,7 +428,9 @@ footer{
         justify-content: center;
     }
     .button{
-        width: 20vw;
+        width: 60%;
+        height:16vw;
+        font-size:4vw;
     }
     .aboutMeP{
         width:80vw;
@@ -420,6 +439,10 @@ footer{
     footer{
         font-size: 3vw;
         align-items: start;
+    }
+    .basicInput{
+        width:60vw;
+        font-size:4vw;
     }
 }
 

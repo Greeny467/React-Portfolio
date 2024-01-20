@@ -1,10 +1,10 @@
-import resumePlaceholder from '../assets/downloads/resumePlaceholder.pdf';
+import resumePlaceholder from '../assets/downloads/DC Resume.pdf';
 
 export default function resumePage () {
     const resume = {
-        image: "/src/assets/images/resumePlaceholder.png",
+        image: 'src/assets/downloads/DC Resume.pdf',
         file: resumePlaceholder,
-        name: "resumePlaceholder.pdf"
+        name: "DCResume.pdf"
     };
 
     return (
@@ -12,7 +12,7 @@ export default function resumePage () {
             <h1 className="colorBarPrimary mainTitle">Resume</h1>
             <div className="rowContainer">
                 <a href={resume.file} download={resume.name} className="button">Download Resume</a>
-                <img src={resume.image}/>
+                <embed src={resume.image} type="application/pdf" width="80%" height="400px"></embed>
             </div>
         </>
     )
